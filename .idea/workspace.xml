@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f236113-be2d-4025-b816-42d37a666ce2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SRO/components/ExampleCalculations.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRO/components/Form.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/pages/FederalLaw.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/pages/FederalLaw.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="package.json" />
         <option value="Vue Single File Component" />
       </list>
     </option>
@@ -36,6 +42,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SRO/assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,11 +58,23 @@
       <workItem from="1613901932176" duration="10853000" />
       <workItem from="1613990945830" duration="4000" />
       <workItem from="1613991030047" duration="26757000" />
-      <workItem from="1614510732607" duration="15496000" />
+      <workItem from="1614510732607" duration="15609000" />
+      <workItem from="1615021928793" duration="17468000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

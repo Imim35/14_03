@@ -1,0 +1,89 @@
+<template>
+  <div class="calculation">
+    <div class="calculation__item">
+      <el-card>
+        <ul>
+          <li class="calculation__title">СРО по строительству:</li>
+          <li>Специалисты - 0 &#8381;</li>
+          <li>Подготовка документов - 0 &#8381;</li>
+          <li>Членский взнос(первый месяц) - 0 &#8381;</li>
+          <li>Страховка - 0 &#8381;</li>
+          <li>Вступительный взнос - 0 &#8381;</li>
+          <li>Сертификат ИСО 9001 - 0 &#8381;</li>
+          <li>Компенсационный фонд - 100 000 &#8381;</li>
+          <li class="calculation__price">Итого 100 000 &#8381;</li>
+        </ul>
+      </el-card>
+    </div>
+    <div class="calculation__item">
+      <el-card>
+        <ul>
+          <li class="calculation__title">СРО по проектированию:</li>
+          <li>Специалисты - 0 &#8381;</li>
+          <li>Подготовка документов - 0 &#8381;</li>
+          <li>Членский взнос(первый месяц) - 0 &#8381;</li>
+          <li>Страховка - 0 &#8381;</li>
+          <li>Вступительный взнос - 0 &#8381;</li>
+          <li>Сертификат ИСО 9001 - 0 &#8381;</li>
+          <li>Компенсационный фонд - 50 000 &#8381;</li>
+          <li class="calculation__price">Итого 50 000 &#8381;</li>
+        </ul>
+      </el-card>
+    </div>
+    <div class="calculation__item">
+      <el-card>
+        <ul>
+          <li class="calculation__title">СРО по взысканиям:</li>
+          <li>Специалисты - 0 &#8381;</li>
+          <li>Подготовка документов - 0 &#8381;</li>
+          <li>Членский взнос(первый месяц) - 0 &#8381;</li>
+          <li>Страховка - 0 &#8381;</li>
+          <li>Вступительный взнос - 0 &#8381;</li>
+          <li>Сертификат ИСО 9001 - 0 &#8381;</li>
+          <li>Компенсационный фонд - 50 000 &#8381;</li>
+          <li class="calculation__price">Итого 50 000 &#8381;</li>
+        </ul>
+      </el-card>
+    </div>
+
+  </div>
+</template>
+
+<script>
+export default {
+  name: "ExampleCalculations"
+}
+</script>
+
+<style lang="scss">
+ .calculation {
+   display: flex;
+   margin-bottom: 40px;
+   &__title {
+     font-weight: bold;
+   }
+   &__price {
+     font-weight: bold;
+   }
+   &__item {
+     margin-right: 20px;
+     flex: 0 1 33.3%;
+     flex-wrap: wrap;
+     &:last-child {
+       margin-right: 0;
+     }
+     ul {
+       padding: 0;
+       list-style: none;
+       li {
+         margin-bottom: 10px;
+         padding-bottom: 10px;
+         border-bottom: 1px solid #EBEEF5;
+       }
+     }
+     .el-card {
+       border: solid 1px #ea9e59;
+     }
+   }
+ }
+</style>

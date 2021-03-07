@@ -1,20 +1,21 @@
 <template>
-  <el-container id="main-container">
-    <!-- Шапка -->
-    <el-header style="background-color: #5d93ce">
-      <info />
-    </el-header>
+  <div>
+    <el-container id="main-container">
+      <!-- Шапка -->
+      <el-header style="background-color: #5d93ce">
+        <Info />
+      </el-header>
 
-    <!-- Контент -->
-    <el-main>
-      <Nuxt />
-    </el-main>
-
+      <!-- Контент -->
+      <el-main style="padding: 40px 20px">
+        <Nuxt />
+      </el-main>
+    </el-container>
     <!-- Футер -->
-    <el-footer style="background-color: #5d93ce">
-      <info />
+    <el-footer style="background-color: #5d93ce;width: 100%">
+      <Info />
     </el-footer>
-  </el-container>
+  </div>
 </template>
 
 <script>

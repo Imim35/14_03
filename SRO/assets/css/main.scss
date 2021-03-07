@@ -1,4 +1,9 @@
 html {
+  //  Кастомный скролл
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
   font-family:
     'Source Sans Pro',
     -apple-system,
