@@ -269,6 +269,13 @@ export default {
             type: 'success',
             message: 'Мы предоставим вам расчет в ближайшее время'
           });
+          // Inside a component
+          this.$axios.$post('/mail/send', {
+            from: 'Пользователь',
+            subject: 'Данные пользователя',
+            text: 'Привет',
+            to: 'geniaimim35@gmail.com',
+          })
         } else {
           this.$notify({
             title: 'Ошибка введенных данных.',

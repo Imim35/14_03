@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f236113-be2d-4025-b816-42d37a666ce2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SRO/components/ExampleCalculations.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SRO/components/Form.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRO/components/Carousel.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/acr1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/А СМСБ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/АР.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/Аккредитация СРО МОТС.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/Аккредитация СРО Якутска.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/Аккредитация.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/МОСК.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/МРИ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/МРП.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/Мособлпрофпроект.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/Мособлстройкомплекс.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/ОПС.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/ПСС.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/ПроЭк.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/СИЛА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/ФЗ 372 ГК РФ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/ЭкспертПроект.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/attachments/ЭкспертСтрой.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/components/ExampleCalculations.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/ExampleCalculations.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/components/Form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Form.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/components/Info.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Info.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/pages/FederalLaw.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/pages/FederalLaw.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/pages/index.vue" afterDir="false" />
     </list>
@@ -18,9 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="package.json" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,6 +82,7 @@
       <workItem from="1613991030047" duration="26757000" />
       <workItem from="1614510732607" duration="15609000" />
       <workItem from="1615021928793" duration="17468000" />
+      <workItem from="1615198201902" duration="8674000" />
     </task>
     <servers />
   </component>
@@ -76,5 +99,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

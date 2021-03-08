@@ -1,4 +1,6 @@
+
 export default {
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'SRO',
@@ -36,9 +38,18 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/axios',
+    ['nuxt-mail', {
+      smtp: {
+        host: "smtp.example.com",
+        port: 587,
+      },
+    }],
+
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+
   }
 }

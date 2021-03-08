@@ -23,6 +23,9 @@ html {
   height: 100%;
   body {
     height: 100%;
+    @media(max-width: 870px) {
+      font-size: 13px;
+    }
   }
   #__nuxt {
     height: 100%;

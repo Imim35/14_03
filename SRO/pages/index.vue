@@ -9,28 +9,8 @@
     <ExampleCalculations />
 
 
-
-    <div class="content__accreditation">
-      <span class="title">Наши свидетельства об акредитации в СРО</span>
-      <el-carousel :interval="8000" type="card">
-        <el-carousel-item>
-          <div class="item" @click="click">
-            <img class="item__image" src="../assets/attachments/acr1.jpg" alt="" />
-          </div>
-        </el-carousel-item>
-        <el-carousel-item>
-          <div class="item">
-            <img class="item__image" src="../assets/attachments/acr1.jpg" alt="" />
-          </div>
-        </el-carousel-item>
-        <el-carousel-item>
-          <div class="item">
-            <img class="item__image" src="../assets/attachments/acr1.jpg" alt="" />
-          </div>
-        </el-carousel-item>
-      </el-carousel>
-    </div>
-
+    <!-- Карусель -->
+    <Carousel />
 
     <!-- Карточка перехода на ФЗ -->
     <el-card>
@@ -47,13 +27,7 @@
 <script>
 export default {
   data () {
-    return {
-    }
-  },
-  methods:{
-    click () {
-      console.log('123')
-    }
+    return {}
   }
 }
 </script>
@@ -70,28 +44,6 @@ export default {
         color: #5d93ce;
       }
     }
-    &__accreditation {
-      margin-bottom: 40px;
-      .title {
-        display: block;
-        text-align: center;
-        margin-bottom: 20px;
-      }
-    }
-    .el-carousel__container {
-      height: 500px;
-    }
-    .el-carousel__item {
-      display: flex;
-      justify-content: center;
-      height: 500px;
-      background-color: transparent;
-      img {
-        width: 500px;
-        height: 500px;
-      }
-    }
-
   }
 
 </style>
