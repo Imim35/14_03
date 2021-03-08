@@ -272,7 +272,7 @@ export default {
           // Inside a component
           this.$axios.$post('/mail/send', {
             from: 'Пользователь',
-            subject: 'Данные пользователя',
+            subject: this.form,
             text: 'Привет',
             to: 'geniaimim35@gmail.com',
           })
