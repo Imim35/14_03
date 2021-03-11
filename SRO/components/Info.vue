@@ -2,8 +2,8 @@
   <div class="info-project">
     <el-row style="height: 100%">
       <el-col :span="2" class="info-project__items">
-        <div>
-          <span>Логотип</span>
+        <div class="info-project__logo">
+          <img src="../assets/logo.jpg">
         </div>
       </el-col>
       <el-col :span="11" class="info-project__items">
@@ -54,6 +54,12 @@ export default {
           display: block;
           margin-bottom: 5px;
         }
+      }
+    }
+    &__logo {
+      max-height: 60px;
+      img {
+        max-height: 60px;
       }
     }
   }
