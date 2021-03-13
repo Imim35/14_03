@@ -3,7 +3,7 @@
     <el-row style="height: 100%">
       <el-col :span="2" class="info-project__items">
         <div class="info-project__logo">
-          <img src="../assets/logo.jpg">
+          <img src="../assets/logo.png">
         </div>
       </el-col>
       <el-col :span="11" class="info-project__items">

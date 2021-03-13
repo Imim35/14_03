@@ -41,11 +41,11 @@ export default {
     '@nuxtjs/axios',
     ['nuxt-mail', {
       smtp: {
-        host: "smtp.example.com",
+        host: "sro-partner.ru",
         port: 587,
       },
     }],
-
+    "@nuxtjs/svg"
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
