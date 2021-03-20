@@ -1,21 +1,23 @@
 <template>
   <div class="info-project">
     <el-row style="height: 100%">
-      <el-col :span="2" class="info-project__items">
+      <el-col :span="12" class="info-project__items">
         <div class="info-project__logo">
           <img src="../assets/logo.png">
         </div>
-      </el-col>
-      <el-col :span="11" class="info-project__items">
         <div class="info-project__item">
           <span>ООО «Надёжный Партнёр»</span>
           <span>Быстро. Выгодно. Надёжно.</span>
         </div>
       </el-col>
-      <el-col :span="10" class="info-project__items">
+      <el-col :span="12" class="info-project__items">
         <div class="info-project__item">
-          <span>Номер для обратной связи:</span>
+          <span style="margin-right: 5px">Номер для обратной связи:</span>
+          <span style="margin-right: 5px">Email:</span>
+        </div>
+        <div class="info-project__item">
           <span>+7(965) 03–22-333</span>
+          <span>director@sro.guru</span>
         </div>
       </el-col>
     </el-row>
@@ -34,18 +36,13 @@ export default {
     &__items {
       height: 100%;
       display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      justify-content: center;
       color: #ececec;
-      @media(max-width: 500px) {
+      align-items: center;
+      @media(max-width: 655px) {
         font-size: 10px;
       }
-      &:first-child {
-        align-items: flex-start;
-      }
       &:last-child {
-        align-items: flex-end;
+        justify-content: flex-end;
       }
     }
     &__item {
@@ -55,9 +52,15 @@ export default {
           margin-bottom: 5px;
         }
       }
+      @media(max-width: 555px) {
+        &:first-child {
+          display: none;
+        }
+      }
     }
     &__logo {
       max-height: 60px;
+      margin-right: 5px;
       img {
         max-height: 60px;
       }

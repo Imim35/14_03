@@ -113,6 +113,8 @@ export default {
    .title {
      text-align: center;
      margin-bottom: 20px;
+     font-weight: 700;
+     font-size: 18px;
    }
  }
 </style>

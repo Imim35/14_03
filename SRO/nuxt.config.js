@@ -41,8 +41,9 @@ export default {
     '@nuxtjs/axios',
     ['nuxt-mail', {
       smtp: {
-        host: "sro-partner.ru",
+        host: "80.249.144.26",
         port: 587,
+        // 25
       },
     }],
     "@nuxtjs/svg"

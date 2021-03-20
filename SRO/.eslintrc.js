@@ -60,5 +60,6 @@ module.exports = {
     "space-unary-ops": 0,           // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
     "spaced-line-comment": 0,       // require or disallow a space immediately following the // in a line comment (off by default)
     "wrap-regex": 0,                // require regex literals to be wrapped in parentheses (off by default)
+    "dot-notation": 0,              // encourages use of dot notation whenever possible
   }
 }

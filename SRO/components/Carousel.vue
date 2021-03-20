@@ -1,14 +1,17 @@
 <template>
   <div class="accreditation">
     <span class="title">Наши свидетельства об акредитации в СРО</span>
-    <el-carousel :interval="8000" type="card">
-      <el-carousel-item v-for="image in images" :key="image.id">
+    <el-carousel :interval="5000" type="card">
+      <el-carousel-item v-for="image in images" :key="image.id" >
         <div class="item">
           <span class="number">{{image.id}}</span>
-          <img :src="image.src" />
+          <img :src="image.src" @click="openImage(image.src)"  />
         </div>
       </el-carousel-item>
     </el-carousel>
+    <div  class="accreditation__modal" v-if="showModal">
+      <img :src="modalSrc" ref="img">
+    </div>
   </div>
 </template>
 
@@ -34,6 +37,10 @@ export default {
   name: "carousel",
   data () {
     return {
+      scale: false,
+      showModal: false,
+      modalSrc : null,
+      bigImg   : null,
       images: [
         { id: 1, src: image_1 },
         { id: 2, src: image_2 },
@@ -54,6 +61,28 @@ export default {
         { id: 17, src: image_17 }
       ]
     }
+  },
+  methods: {
+    openImage (value) {
+      this.modalSrc = null
+      this.showModal = !this.showModal
+      this.modalSrc = value
+      // !input.contains(event.target)
+      setTimeout(() => {
+        this.bigImg  = this.$refs['img']
+        window.addEventListener('click', this.clickOutside)
+      })
+    },
+    // Скрытие модалки если клик был совершен вне картинки
+    clickOutside (event) {
+      if (!this.bigImg.contains(event.target)) {
+        this.showModal = false
+        window.removeEventListener("click", this.clickOutside);
+      }
+    },
+  },
+  beforeDestroy () {
+    window.removeEventListener("click", this.clickOutside);
   }
 }
 </script>
@@ -65,6 +94,8 @@ export default {
       display: block;
       text-align: center;
       margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 18px;
     }
     .el-carousel__container {
       height: 500px;
@@ -102,6 +133,34 @@ export default {
     .number {
       @media(max-width: 1070px) {
         visibility: hidden;
+      }
+    }
+    &__modal {
+      position: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      img {
+        width: 800px;
+        height: 900px;
+      }
+      @media(max-width: 750px) {
+        img {
+          width: 500px;
+          height: 600px;
+        }
+      }
+      @media(max-width: 550px) {
+        img {
+          width: 400px;
+          height: 500px;
+        }
       }
     }
 }
