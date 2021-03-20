@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f236113-be2d-4025-b816-42d37a666ce2" name="Default Changelist" comment="" />
+    <list default="true" id="2f236113-be2d-4025-b816-42d37a666ce2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/nuxt.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +88,8 @@
       <workItem from="1615656819895" duration="21000" />
       <workItem from="1615656843391" duration="4443000" />
       <workItem from="1616238927157" duration="7649000" />
+      <workItem from="1616255035529" duration="707000" />
+      <workItem from="1616265488023" duration="9000" />
     </task>
     <servers />
   </component>
