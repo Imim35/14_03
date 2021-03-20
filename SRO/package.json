@@ -2,12 +2,6 @@
   "name": "SRO",
   "version": "1.0.0",
   "private": true,
-  "config": {
-    "nuxt": {
-      "host": "80.249.144.26",
-      "port": "3000"
-    }
-  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
