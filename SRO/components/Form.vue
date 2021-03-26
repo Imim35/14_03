@@ -309,7 +309,17 @@ export default {
 </script>
 
 <style lang="scss">
- .form {
+  .el-collapse {
+    @media(max-width: 550px) {
+      border-top: none !important;
+    }
+  }
+  .el-collapse-item__header {
+    @media(max-width: 550px) {
+      font-size: 10px;
+    }
+  }
+  .form {
     .radio-items {
       display: flex;
       flex-direction: column;
@@ -324,6 +334,9 @@ export default {
       color: #a0a0a0;
       font-weight: bold;
       margin-bottom: 10px;
+      @media(max-width: 550px) {
+        font-size: 7px;
+      }
     }
     .checkbox-group {
       margin-bottom: 15px;
@@ -338,10 +351,12 @@ export default {
     .fade-leave-active { transition: all 1s ease; display: none }
    &__label {
      font-size: 11.5px;
-     white-space: nowrap;
    }
    .el-radio__label {
-     font-size: 13px!important;
+     font-size: 13px;
+     @media(max-width: 550px) {
+       font-size: 8px;
+     }
    }
    .checkbox-group {
      display: flex;
