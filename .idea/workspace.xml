@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f236113-be2d-4025-b816-42d37a666ce2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SRO/assets/bgHeader.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/assets/jpg/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/assets/jpg/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/components/Carousel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Carousel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/components/Form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Form.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/components/Info.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Info.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/pages/FederalLaw.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/pages/FederalLaw.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +94,7 @@
       <workItem from="1616331902597" duration="93000" />
       <workItem from="1616331997653" duration="2862000" />
       <workItem from="1616340584697" duration="529000" />
-      <workItem from="1616858684499" duration="6882000" />
+      <workItem from="1616858684499" duration="7619000" />
     </task>
     <servers />
   </component>

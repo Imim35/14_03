@@ -57,6 +57,10 @@ export default {
         color: #5d93ce;
       }
     }
+    .el-collapse {
+      border-bottom: none;
+      border-top: none;
+    }
     .form-card {
       background-color: #ea9e59;
       .el-card__body {
@@ -68,34 +72,39 @@ export default {
         background-color: #ea9e59;
         border-bottom: none;
         position: relative;
-        transition: all 0.3s ease;
         i {
           margin: 0;
         }
         @media(max-width: 555px) {
           font-size: 20px;
         }
+        &:after {
+          content: "";
+          position: absolute;
+          top: -10px;
+          bottom: 0;
+          height: 70px;
+        }
         &.active {
           &:after {
-            content: '';
-            position: absolute;
-            left: -30px;
-            top: -13px;
-            width: 1px;
-            height: 70px;
-            animation: move 1s ease-in;
-            background-color: #ececec;
-            opacity: 0.6;
-          }
-          @keyframes move {
-            from {
-              left: -30px;
-              transform: rotate(25deg);
-            }
-            to {
-              left: 445px;
-              transform: rotate(25deg);
-            }
+            background: -webkit-gradient(linear,left top,right top,color-stop(10%,hsla(0,0%,100%,.1)),color-stop(20%,hsla(0,0%,100%,.2)),to(hsla(0,0%,100%,.6)));
+            background: linear-gradient(
+                90deg
+              ,hsla(0,0%,100%,.1) 10%,hsla(0,0%,100%,.2) 20%,hsla(0,0%,100%,.6));
+            width: 20px;
+            -webkit-transform: skewX(
+                -45deg
+            );
+            transform: skewX(-45deg) translateX(500px);
+            left: -20%;
+            -webkit-transition: all .6s ease;
+            transition: all 1s ease;
+            -webkit-animation-name: blick;
+            animation-name: blick;
+            -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
           }
         }
       }
