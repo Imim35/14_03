@@ -1,7 +1,7 @@
 <template>
   <div class="accreditation">
     <span class="title">Наши свидетельства об акредитации в СРО</span>
-    <el-carousel :interval="5000" type="card">
+    <el-carousel :interval="3000" type="card">
       <el-carousel-item v-for="image in images" :key="image.id" >
         <div class="item">
           <span class="number">{{image.id}}</span>
@@ -10,7 +10,7 @@
       </el-carousel-item>
     </el-carousel>
     <div  class="accreditation__modal" v-if="showModal">
-      <img :src="modalSrc" ref="img">
+      <img :src="modalSrc">
     </div>
   </div>
 </template>
@@ -40,7 +40,6 @@ export default {
       scale: false,
       showModal: false,
       modalSrc : null,
-      bigImg   : null,
       images: [
         { id: 1, src: image_1 },
         { id: 2, src: image_2 },
@@ -69,13 +68,12 @@ export default {
       this.modalSrc = value
       // !input.contains(event.target)
       setTimeout(() => {
-        this.bigImg  = this.$refs['img']
         window.addEventListener('click', this.clickOutside)
       })
     },
     // Скрытие модалки если клик был совершен вне картинки
     clickOutside (event) {
-      if (!this.bigImg.contains(event.target)) {
+      if (event) {
         this.showModal = false
         window.removeEventListener("click", this.clickOutside);
       }

@@ -2,7 +2,7 @@
   <div>
     <el-container id="main-container">
       <!-- Шапка -->
-      <el-header style="background-color: #5d93ce">
+      <el-header class="header" style="height: 160px">
         <Info />
       </el-header>
 
@@ -11,10 +11,6 @@
         <Nuxt />
       </el-main>
     </el-container>
-    <!-- Футер -->
-    <el-footer style="background-color: #5d93ce;width: 100%">
-      <Info />
-    </el-footer>
   </div>
 </template>
 
@@ -24,5 +20,9 @@ export default {}
 <style lang="scss">
   #main-container {
     height: 100%;
+  }
+  .header {
+    background-image: url('../assets/bgHeader.jpg');
+    background-size: cover ;
   }
 </style>

@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f236113-be2d-4025-b816-42d37a666ce2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SRO/assets/bgHeader.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/jpg/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/assets/jpg/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/components/Carousel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Carousel.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/components/Form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Form.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/components/Info.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Info.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/layouts/default.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/pages/FederalLaw.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/pages/FederalLaw.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +71,11 @@
       <recent name="$PROJECT_DIR$/SRO/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SRO/assets/jpg" />
       <recent name="$PROJECT_DIR$/SRO/assets" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -91,13 +98,16 @@
       <workItem from="1615656843391" duration="4443000" />
       <workItem from="1616238927157" duration="7649000" />
       <workItem from="1616255035529" duration="707000" />
-      <workItem from="1616265488023" duration="9000" />
-      <workItem from="1616771905641" duration="1057000" />
+      <workItem from="1616265488023" duration="159000" />
+      <workItem from="1616331902597" duration="93000" />
+      <workItem from="1616331997653" duration="2862000" />
+      <workItem from="1616340584697" duration="529000" />
+      <workItem from="1616858684499" duration="6882000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -110,11 +120,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="981" y="446" width="597" height="490" key="find.popup" timestamp="1616773280903">
-      <screen x="0" y="25" width="2560" height="1333" />
-    </state>
-    <state x="981" y="446" width="597" height="490" key="find.popup/0.25.2560.1333@0.25.2560.1333" timestamp="1616773280903" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-collapse id="form" class="form">
-      <el-collapse-item title="Рассчитать стоимость вступления в СРО">
+      <el-collapse-item title="Рассчитать стоимость">
         <el-form
           :model="form"
           :rules="rules"
@@ -248,6 +248,24 @@ export default {
       if (this.step > 0) {
         this.step -= 1
       }
+      if (this.step === 0) {
+        this.form.registrationLegalEntity = null
+      }
+      if (this.step === 1) {
+        this.form.typeSRO = null
+      }
+      if (this.step === 2) {
+        this.form.tender = null
+      }
+      if (this.step === 3) {
+        this.form.conditionsWork = null
+      }
+      if (this.step === 4) {
+        this.form.HPC = null
+      }
+      if (this.step === 5) {
+        this.form.price = null
+      }
     },
 
     // Валидация поля email с помощью regexp
@@ -328,14 +346,17 @@ export default {
       font-size: 13px;
     }
     .el-collapse-item__content {
+      padding-left: 5px;
       padding-bottom: 0;
     }
     .text-muted {
-      color: #a0a0a0;
       font-weight: bold;
       margin-bottom: 10px;
       @media(max-width: 550px) {
-        font-size: 7px;
+        font-size: 10px;
+      }
+      @media(max-width: 380px) {
+        font-size: 8px;
       }
     }
     .checkbox-group {
@@ -355,12 +376,16 @@ export default {
    .el-radio__label {
      font-size: 13px;
      @media(max-width: 550px) {
+       font-size: 10px;
+     }
+     @media(max-width: 330px) {
        font-size: 8px;
      }
    }
    .checkbox-group {
      display: flex;
      flex-direction: column;
+
      justify-content: space-between;
      min-height: 204px;
      &__item {
