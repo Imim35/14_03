@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f236113-be2d-4025-b816-42d37a666ce2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/components/Form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Form.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/nuxt.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,7 @@
       <workItem from="1616858684499" duration="7619000" />
       <workItem from="1617178928152" duration="599000" />
       <workItem from="1617191739151" duration="3215000" />
-      <workItem from="1617196405511" duration="609000" />
+      <workItem from="1617196405511" duration="1369000" />
     </task>
     <servers />
   </component>
