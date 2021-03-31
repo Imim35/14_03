@@ -47,7 +47,7 @@ export default {
         to: 'geniaimim35@gmail.com',
       },
       smtp: {
-        host: "80.249.144.26",
+        host: "80.249.144.  26",
         port: 587,
       },
     }],
