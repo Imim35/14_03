@@ -22,7 +22,6 @@
     <list default="true" id="2f236113-be2d-4025-b816-42d37a666ce2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/nuxt.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <workItem from="1616340584697" duration="529000" />
       <workItem from="1616858684499" duration="7619000" />
       <workItem from="1617178928152" duration="599000" />
-      <workItem from="1617191739151" duration="2111000" />
+      <workItem from="1617191739151" duration="2676000" />
     </task>
     <servers />
   </component>
@@ -115,5 +114,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1018" y="442" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617195722864">
+      <screen x="0" y="25" width="2560" height="1333" />
+    </state>
+    <state x="1018" y="442" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.2560.1333@0.25.2560.1333" timestamp="1617195722864" />
   </component>
 </project>
