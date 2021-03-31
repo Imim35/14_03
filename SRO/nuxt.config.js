@@ -1,9 +1,9 @@
 
 export default {
-  server: {
-    host: '80.249.144.26',
-    port: '80'
-  },
+  // server: {
+  //   host: '80.249.144.26',
+  //   port: '80'
+  // },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'SRO',
@@ -47,7 +47,7 @@ export default {
         to: 'geniaimim35@gmail.com',
       },
       smtp: {
-        host: "80.249.144.  26",
+        host: "80.249.144.26",
         port: 587,
       },
     }],
