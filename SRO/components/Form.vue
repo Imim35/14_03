@@ -289,11 +289,8 @@ export default {
           });
           // Inside a component
           this.$axios.$post('/mail/send', {
-            from: 'Пользователь',
-            subject: this.form,
-            text: 'Привет',
-            to: 'geniaimim35@gmail.com',
-          })
+            info: this.form
+          }).then(res => console.log(res))
         } else {
           this.$notify({
             title: 'Ошибка введенных данных.',

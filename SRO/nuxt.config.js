@@ -43,16 +43,16 @@ export default {
   modules: [
     '@nuxtjs/axios',
     ['nuxt-mail', {
+      message: {
+        to: 'geniaimim35@gmail.com',
+      },
       smtp: {
         host: "80.249.144.26",
         port: 587,
-        // 25
       },
     }],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-
-  }
+  build: {}
 }
