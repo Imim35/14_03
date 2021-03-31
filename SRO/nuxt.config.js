@@ -4,15 +4,6 @@ export default {
     host: '80.249.144.26',
     port: '80'
   },
-  mail: {
-    message: {
-      to: 'geniaimim35@gmail.com',
-    },
-    smtp: {
-      host: "80.249.144.26",
-      port: 587,
-    },
-  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'SRO',
@@ -50,17 +41,18 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // '@nuxtjs/axios',
-    // ['nuxt-mail', {
-    //   message: {
-    //     to: 'geniaimim35@gmail.com',
-    //   },
-    //   smtp: {
-    //     host: "80.249.144.26",
-    //     port: 587,
-    //   },
-    // }],
+    '@nuxtjs/axios',
+    ['nuxt-mail', {
+      message: {
+        to: 'geniaimim35@gmail.com',
+      },
+      smtp: {
+        host: "80.249.144.26",
+        port: 587,
+      },
+    }],
   ],
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
 }

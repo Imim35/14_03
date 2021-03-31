@@ -287,11 +287,12 @@ export default {
             type: 'success',
             message: 'Мы предоставим вам расчет в ближайшее время'
           });
-          this.$mail.send({
+          // Inside a component
+          this.$axios.$post('/mail/send', {
             info: this.form,
             from: 'John Doe',
             subject: 'Incredible',
-            text: 'This is an incredible test message',
+            text: 'This is an incredible test message'
           })
         } else {
           this.$notify({
