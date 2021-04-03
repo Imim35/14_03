@@ -84,6 +84,11 @@ export default {
      &:last-child {
        margin-right: 0;
      }
+     @media(max-width: 1070px) {
+       &:last-child {
+         margin-right: 20px;
+       }
+     }
      ul {
        padding: 0;
        list-style: none;

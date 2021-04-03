@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2f236113-be2d-4025-b816-42d37a666ce2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/assets/bgHeader.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/assets/bgHeader.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/components/ExampleCalculations.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/ExampleCalculations.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/components/Info.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Info.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +98,11 @@
       <workItem from="1616331902597" duration="93000" />
       <workItem from="1616331997653" duration="2862000" />
       <workItem from="1616340584697" duration="529000" />
-      <workItem from="1616858684499" duration="7619000" />
+      <workItem from="1616858684499" duration="8290000" />
+      <workItem from="1616929260681" duration="415000" />
+      <workItem from="1617123135833" duration="597000" />
+      <workItem from="1617434207978" duration="1998000" />
+      <workItem from="1617438175666" duration="1000" />
     </task>
     <servers />
   </component>

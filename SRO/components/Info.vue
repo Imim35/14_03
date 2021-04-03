@@ -59,7 +59,7 @@ export default {
       }
       @media(max-width: 555px) {
         img {
-          max-height: 60px;
+          max-height: 85px;
         }
       }
     }
