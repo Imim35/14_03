@@ -289,10 +289,9 @@ export default {
           });
           // Inside a component
           this.$axios.$post('/mail/send', {
-            from: 'Пользователь',
-            subject: this.form,
-            text: 'Привет',
-            to: 'geniaimim35@gmail.com',
+            subject: 'Форма',
+            info: this.form,
+            from: '80.249.144.26',
           })
         } else {
           this.$notify({
