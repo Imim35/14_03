@@ -1,6 +1,6 @@
 <template>
   <div class="calculation">
-    <div class="title">Примеры расчета стоимости в СРО</div>
+    <div class="title" style="text-transform: uppercase">Примеры расчета стоимости</div>
     <div class="calculation__items">
       <div class="calculation__item">
         <el-card>
@@ -105,7 +105,7 @@ export default {
        }
      }
      .el-card {
-       border: solid 1px #ea9e59;
+       border: solid 1px #faa12b;
      }
      @media(max-width: 1070px) {
        flex: 0 1 40%;

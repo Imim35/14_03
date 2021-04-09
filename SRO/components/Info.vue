@@ -39,6 +39,9 @@ export default {
           display: block;
           margin-bottom: 5px;
         }
+        &:nth-child(2) {
+          font-size: 20px;
+        }
       }
       @media(max-width: 555px) {
         span {
@@ -47,6 +50,9 @@ export default {
       }
       @media(max-width: 455px) {
         span {
+          &:nth-child(2) {
+            font-size: 13px;
+          }
           font-size: 15px;
         }
       }

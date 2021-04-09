@@ -62,14 +62,14 @@ export default {
       border-top: none;
     }
     .form-card {
-      background-color: #ea9e59;
+      background-color: #faa12b;
       .el-card__body {
         padding: 8px;
       }
       .el-collapse-item__header {
         justify-content: center;
         font-size: 24px;
-        background-color: #ea9e59;
+        background-color: #faa12b;
         border-bottom: none;
         position: relative;
         i {
@@ -77,6 +77,9 @@ export default {
         }
         @media(max-width: 555px) {
           font-size: 20px;
+        }
+        @media(max-width: 355px) {
+          font-size: 18px;
         }
         &:after {
           content: "";

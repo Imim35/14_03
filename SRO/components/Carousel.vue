@@ -1,6 +1,6 @@
 <template>
   <div class="accreditation">
-    <span class="title">Наши свидетельства об акредитации в СРО</span>
+    <span class="title" style="text-transform: uppercase">Свидетельства об акредитации в СРО</span>
     <el-carousel :interval="3000" type="card">
       <el-carousel-item v-for="image in images" :key="image.id" >
         <div class="item">
@@ -148,7 +148,13 @@ export default {
         width: 800px;
         height: 900px;
       }
-      @media(max-width: 750px) {
+      @media only screen and (max-height: 800px) {
+        img {
+          width: 700px;
+          height: 700px;
+        }
+      }
+      @media(max-width: 800px) {
         img {
           width: 500px;
           height: 600px;

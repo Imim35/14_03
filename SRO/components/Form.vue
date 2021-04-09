@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-collapse id="form" class="form">
-      <el-collapse-item title="Рассчитать стоимость">
+      <el-collapse-item title="РАССЧИТАТЬ СТОИМОСТЬ">
         <el-form
           :model="form"
           :rules="rules"
@@ -67,8 +67,9 @@
 
           <transition name="fade">
             <el-form-item v-show="step === 4">
-              <div class="text-muted form__label">Имеются ли у вас специалисты, внесенные в HPC?</div>
-              <el-radio-group v-model="form.HPC" @change="nextStep">
+              <div class="text-muted form__label">Планируете ли участие в государственных тендерах?</div>
+<!--              <div class="text-muted form__label">Имеются ли у вас специалисты, внесенные в HPC?</div>-->
+              <el-radio-group size="mini" v-model="form.HPC" @change="nextStep">
                 <div class="radio-items">
                   <el-radio label="Да" />
                   <el-radio label="Нет" />
@@ -107,7 +108,7 @@
 
           <transition name="fade">
             <el-form-item v-show="step === 6" prop="contacts">
-              <span class="text-muted form__label">Предпочитаемый способ получения результатов расчета:</span>
+              <div class="text-muted form__label">Предпочитаемый способ получения результатов расчета:</div>
               <el-checkbox-group v-model="form.contacts" class="checkbox-group">
 
                 <el-form-item prop="mobile" class="checkbox-group__item">
@@ -333,7 +334,7 @@ export default {
   }
   .el-collapse-item__header {
     @media(max-width: 550px) {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
   .form {
@@ -344,19 +345,34 @@ export default {
       justify-content: space-between;
       font-size: 13px;
     }
+    .el-radio, .el-radio__input {
+      white-space: pre-wrap;
+    }
+    .el-radio {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      border-radius: 3px;
+      height: 100%;
+      border: 1px solid #DCDFE6;
+      margin-right: 10px;
+    }
+    .el-radio-group {
+      width: 100%;
+    }
+    .el-form-item {
+      width: 100%;
+      margin-bottom: 15px;
+    }
     .el-collapse-item__content {
       padding-left: 5px;
       padding-bottom: 0;
     }
     .text-muted {
       font-weight: bold;
-      margin-bottom: 10px;
-      @media(max-width: 550px) {
-        font-size: 10px;
-      }
-      @media(max-width: 380px) {
-        font-size: 8px;
-      }
+      line-height: 15px;
+      font-size: 14px;
+      margin: 15px 0 15px 0;
     }
     .checkbox-group {
       margin-bottom: 15px;
@@ -374,17 +390,10 @@ export default {
    }
    .el-radio__label {
      font-size: 13px;
-     @media(max-width: 550px) {
-       font-size: 10px;
-     }
-     @media(max-width: 330px) {
-       font-size: 8px;
-     }
    }
    .checkbox-group {
      display: flex;
      flex-direction: column;
-
      justify-content: space-between;
      min-height: 204px;
      &__item {

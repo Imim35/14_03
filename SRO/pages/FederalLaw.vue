@@ -7,12 +7,10 @@
     </nuxt-link>
     <div class="federal-law__content">
       <div class="text">
-        <span class="title">ФЕДЕРАЛЬНЫЙ ЗАКОН 372</span>
-        <p>О внесении изменений в Градостроительный кодекс</p>
-        <p>Российской Федерации и отдельные законодательные акты Российской Федерации в части совершенствования</p>
-        <p>регулирования подготовки, согласования и утверждения документации по планировке территории</p>
+        <span class="title">Наша компания работает по Федеральному Закону № 372 Градостроительного кодекса Российской Федерации.</span>
+        <p>Ознакомиться с полным изданием закона Вы можете скачав его по ссылке.</p>
       </div>
-      <a href="https://minstroyrf.gov.ru/upload/iblock/eec/proekt-fz-o-dpt.doc" download><el-button type="primary" plain>Скачать файл</el-button></a>
+      <a href="https://drive.google.com/u/0/uc?id=1mRNnQqW42sU-tUUO0VR9R-CRyPHyE-Ap&export=download" download><el-button type="primary" plain>Скачать файл</el-button></a>
     </div>
   </div>
 </template>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4d5d2ae6-ba34-49ac-8cf5-78b98f5de3ce" name="serv">
+        <fileTransfer rootFolder="/root/14_03/SRO" accessType="SFTP" host="80.249.144.26" port="22" sshConfigId="9d038772-044c-4775-a850-a514954ad53f" sshConfig="anton-sro">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
