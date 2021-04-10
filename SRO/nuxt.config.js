@@ -1,8 +1,13 @@
-
+import fs from 'fs'
+import path from 'path'
 export default {
   server: {
     host: '80.249.144.26',
-    port: '80'
+    port: '80',
+    https: {
+      key : fs.readFileSync(path.resolve('/etc/letsencrypt/live/sro-24.com/', 'privkey.pem')),
+      cert: fs.readFileSync(path.resolve('/etc/letsencrypt/live/sro-24.com/', 'cert.pem'))
+    }
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
