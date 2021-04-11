@@ -1,9 +1,16 @@
 import fs from 'fs'
 import path from 'path'
+import redirectSSL from 'redirect-ssl';
 export default {
+  // serverMiddleware:["redirect-ssl"],
+  serverMiddleware: [
+    redirectSSL.create({
+      enabled: process.env.NODE_ENV === 'production'
+    }),
+  ],
   server: {
-    host: '80.249.144.26',
-    port: '80',
+    host: 'sro-24.com',
+    port: 80,
     https: {
       key : fs.readFileSync(path.resolve('/etc/letsencrypt/live/sro-24.com/', 'privkey.pem')),
       cert: fs.readFileSync(path.resolve('/etc/letsencrypt/live/sro-24.com/', 'cert.pem'))
