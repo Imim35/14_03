@@ -291,7 +291,8 @@ export default {
           this.$axios.$post('/mail/send', {
             subject: 'Форма',
             info: this.form,
-            from: '80.249.144.26',
+            from: 'sro-24.com',
+            // from: '80.249.144.26',
           })
         } else {
           this.$notify({

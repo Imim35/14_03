@@ -2,15 +2,10 @@ import fs from 'fs'
 import path from 'path'
 import redirectSSL from 'redirect-ssl';
 export default {
-  // serverMiddleware:["redirect-ssl"],
-  serverMiddleware: [
-    redirectSSL.create({
-      enabled: process.env.NODE_ENV === 'production'
-    }),
-  ],
+  serverMiddleware: ['redirect-ssl'],
   server: {
     host: 'sro-24.com',
-    port: 80,
+    port: 443,
     https: {
       key : fs.readFileSync(path.resolve('/etc/letsencrypt/live/sro-24.com/', 'privkey.pem')),
       cert: fs.readFileSync(path.resolve('/etc/letsencrypt/live/sro-24.com/', 'cert.pem'))
@@ -56,15 +51,22 @@ export default {
     '@nuxtjs/axios',
     ['nuxt-mail', {
       message: {
-        to: 'geniaimim35@gmail.com',
+        to: 'antonvelmatov07@gmail.com',
       },
       smtp: {
-        host: "80.249.144.26",
-        port: 587,
+        host: "smtp.gmail.com",
+        port: 465,
+        secure: true,
+        auth: {
+          Username:'antonvelmatov07@gmail.com',
+          Password:'kycjeywseuwnhtds'
+        }
       },
     }],
   ],
-
+  axios: {
+    baseURL: '/'
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
 }
