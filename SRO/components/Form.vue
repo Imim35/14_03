@@ -67,8 +67,7 @@
 
           <transition name="fade">
             <el-form-item v-show="step === 4">
-              <div class="text-muted form__label">Планируете ли участие в государственных тендерах?</div>
-<!--              <div class="text-muted form__label">Имеются ли у вас специалисты, внесенные в HPC?</div>-->
+              <div class="text-muted form__label">Имеются ли у вас специалисты, внесенные в HPC?</div>
               <el-radio-group size="mini" v-model="form.HPC" @change="nextStep">
                 <div class="radio-items">
                   <el-radio label="Да" />
