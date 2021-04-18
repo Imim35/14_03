@@ -280,20 +280,28 @@ export default {
 
     // Отправление формы
     submit (formName) {
+      console.log(this.$mail)
       this.$refs[formName].validate((valid) => {
         if (valid) {
-          this.$notify({
-            title: 'Спасибо за обращение.',
-            type: 'success',
-            message: 'Мы предоставим вам расчет в ближайшее время'
-          });
-          // Inside a component
-          this.$axios.$post('/mail/send', {
-            subject: 'Форма',
-            info: this.form,
-            from: 'sro-24.com',
-            // from: '80.249.144.26',
+          this.$mail.send({
+            from: 'John Doe',
+            subject: 'Incredible',
+            text: 'This is an incredible test message',
           })
+            .then(() => {
+              this.$notify({
+                title: 'Спасибо за обращение.',
+                type: 'success',
+                message: 'Мы предоставим вам расчет в ближайшее время'
+              });
+            })
+            .catch((error) => {
+              this.$notify({
+                title: 'Не удалось отправить данные.',
+                type: 'error',
+                message: 'Попробуйте позднее'
+              })
+            })
         } else {
           this.$notify({
             title: 'Ошибка введенных данных.',

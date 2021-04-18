@@ -1,8 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import redirectSSL from 'redirect-ssl';
 export default {
-  serverMiddleware: ['redirect-ssl'],
   server: {
     host: 'sro-24.com',
     port: 443,
@@ -51,15 +49,15 @@ export default {
     '@nuxtjs/axios',
     ['nuxt-mail', {
       message: {
-        to: 'antonvelmatov07@gmail.com',
+        to: 'geniaimim35@gmail.com'
       },
       smtp: {
-        host: "smtp.gmail.com",
-        port: 465,
-        secure: true,
+        host: "smtp.mail.ru",
+        port: 587,
+        secure: false,
         auth: {
-          Username:'antonvelmatov07@gmail.com',
-          Password:'kycjeywseuwnhtds'
+          user:'testsro76@mail.ru',
+          pass:'Nodemailer'
         }
       },
     }],
