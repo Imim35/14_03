@@ -26,7 +26,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/components/Form.vue" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/components/Form.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SRO/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRO/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRO/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/SRO/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +137,12 @@
       <workItem from="1618070601175" duration="10875000" />
       <workItem from="1618142335399" duration="21480000" />
       <workItem from="1618671117345" duration="10693000" />
-      <workItem from="1618747679613" duration="7915000" />
+      <workItem from="1618747679613" duration="23985000" />
+      <workItem from="1619352957443" duration="3778000" />
+      <workItem from="1619466465390" duration="2996000" />
+      <workItem from="1619722994683" duration="8609000" />
+      <workItem from="1619766255565" duration="15379000" />
+      <workItem from="1620213646281" duration="1217000" />
     </task>
     <servers />
   </component>

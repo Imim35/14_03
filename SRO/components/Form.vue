@@ -280,11 +280,10 @@ export default {
 
     // Отправление формы
     submit (formName) {
-      console.log(this.$mail)
-      this.$refs[formName].validate((valid) => {
+      this.$refs[formName].validate(async (valid) => {
         if (valid) {
           this.$mail.send({
-            from: 'John Doe',
+            from: 'antonvelmatov07@gmail.com',
             subject: 'Incredible',
             text: 'This is an incredible test message',
           })
@@ -335,84 +334,84 @@ export default {
 </script>
 
 <style lang="scss">
-  .el-collapse {
-    @media(max-width: 550px) {
-      border-top: none !important;
+.el-collapse {
+  @media(max-width: 550px) {
+    border-top: none !important;
+  }
+}
+.el-collapse-item__header {
+  @media(max-width: 550px) {
+    font-size: 12px;
+  }
+}
+.form {
+  .radio-items {
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    justify-content: space-between;
+    font-size: 13px;
+  }
+  .el-radio, .el-radio__input {
+    white-space: pre-wrap;
+  }
+  .el-radio {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 3px;
+    height: 100%;
+    border: 1px solid #DCDFE6;
+    margin-right: 10px;
+  }
+  .el-radio-group {
+    width: 100%;
+  }
+  .el-form-item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .el-collapse-item__content {
+    padding-left: 5px;
+    padding-bottom: 0;
+  }
+  .text-muted {
+    font-weight: bold;
+    line-height: 15px;
+    font-size: 14px;
+    margin: 15px 0 15px 0;
+  }
+  .checkbox-group {
+    margin-bottom: 15px;
+  }
+  .fade-enter,
+  .fade-leave-to { opacity: 0 }
+
+  .fade-leave,
+  .fade-enter-to { opacity: 1 }
+
+  .fade-enter-active { transition: all 1s ease }
+  .fade-leave-active { transition: all 1s ease; display: none }
+  &__label {
+    font-size: 11.5px;
+  }
+  .el-radio__label {
+    font-size: 13px;
+  }
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 204px;
+    &__item {
+      .el-form-item__content {
+        label {
+          margin-right: 5px;
+        }
+        width: 100%;
+        display: flex;
+      }
     }
   }
-  .el-collapse-item__header {
-    @media(max-width: 550px) {
-      font-size: 12px;
-    }
-  }
-  .form {
-    .radio-items {
-      display: flex;
-      flex-direction: column;
-      min-height: 250px;
-      justify-content: space-between;
-      font-size: 13px;
-    }
-    .el-radio, .el-radio__input {
-      white-space: pre-wrap;
-    }
-    .el-radio {
-      display: flex;
-      align-items: center;
-      padding: 5px;
-      border-radius: 3px;
-      height: 100%;
-      border: 1px solid #DCDFE6;
-      margin-right: 10px;
-    }
-    .el-radio-group {
-      width: 100%;
-    }
-    .el-form-item {
-      width: 100%;
-      margin-bottom: 15px;
-    }
-    .el-collapse-item__content {
-      padding-left: 5px;
-      padding-bottom: 0;
-    }
-    .text-muted {
-      font-weight: bold;
-      line-height: 15px;
-      font-size: 14px;
-      margin: 15px 0 15px 0;
-    }
-    .checkbox-group {
-      margin-bottom: 15px;
-    }
-    .fade-enter,
-    .fade-leave-to { opacity: 0 }
-
-    .fade-leave,
-    .fade-enter-to { opacity: 1 }
-
-    .fade-enter-active { transition: all 1s ease }
-    .fade-leave-active { transition: all 1s ease; display: none }
-   &__label {
-     font-size: 11.5px;
-   }
-   .el-radio__label {
-     font-size: 13px;
-   }
-   .checkbox-group {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
-     min-height: 204px;
-     &__item {
-       .el-form-item__content {
-         label {
-           margin-right: 5px;
-         }
-         width: 100%;
-         display: flex;
-       }
-     }
-   }
 }
 </style>
